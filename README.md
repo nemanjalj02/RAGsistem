@@ -34,4 +34,4 @@ Notebook je rađen u Google Colab-u (drive.mount se koristi za čuvanje rezultat
 ## Run
 Pokretanje servera se vrši preko komande `jupyter notebook` ili `jupyter-lab`. Ako se koristi virtuelno okruženje, potrebno ga je prvo aktivirati.
 
-Pokrenuti ćelije od vrha ka dnu. HPO pretrage (sekcije 6 i 6.2) dugo traju i traže GPU. Za isprobavanje samog RAG sistema dovoljno je preskočiti treniranje i koristiti gotov model iz FINETUNED_MODEL_DIR.
+Pokrenuti ćelije od vrha ka dnu. HPO pretrage (sekcije 6 i 6.2) dugo traju i traže GPU. Za isprobavanje samog RAG sistema dovoljno je preskočiti ovu pretragu i pokrenuti treniranje sa dobijenim parametrima, čime se model sačuva u FINETUNED_MODEL_DIR i koristi u nastavku.
